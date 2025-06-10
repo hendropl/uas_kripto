@@ -65,23 +65,6 @@ Namun, implementasi OTP di dunia nyata jarang digunakan karena distribusi dan ma
 - Pencegahan penggunaan ulang kunci (reuse prevention)
 - Riwayat kunci yang pernah digunakan
 
-## 🚀 Cara Menjalankan
-
-### Prasyarat
-```bash
-# Pastikan Python 3 terinstall
-python --version
-
-# Tidak memerlukan instalasi package tambahan
-# (menggunakan built-in modules)
-```
-
-### Menjalankan Aplikasi
-```bash
-# Clone atau download source code
-# Jalankan file utama
-python otp_encryption.py
-```
 
 ## 📖 Cara Penggunaan
 
