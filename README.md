@@ -148,6 +148,17 @@ Aplikasi ini memberikan pemahaman tentang:
 - **Analisis Serangan**: Dampak penggunaan kunci yang salah
 - **Trade-off Keamanan**: Keseimbangan antara keamanan dan praktikalitas
 
+## Kesimpulan 
+Ciphertext yang dienkripsi menggunakan algoritma One-Time Pad (OTP) tidak dapat
+didekripsi secara pasti tanpa mengetahui kunci yang digunakan. Hal ini disebabkan oleh sifat
+dasar OTP yang melakukan operasi XOR antara plaintext dan kunci yang benar-benar acak dan
+unik untuk setiap pesan. Tanpa mengetahui kunci, ciphertext tersebut dapat dikaitkan dengan
+sekitar 281 triliun kemungkinan plaintext berbeda, sehingga tidak ada cara untuk menentukan
+mana yang benar. Oleh karena itu, OTP memberikan keamanan yang sempurna (perfect
+secrecy) selama kunci digunakan hanya sekali, bersifat acak, dan disimpan secara rahasia. Ini
+membuktikan bahwa OTP tidak dapat dipecahkan secara kriptografis melalui analisis ciphertext
+saja, sehingga sangat kuat namun sulit digunakan secara praktis karena tantangan dalam
+distribusi dan manajemen kunci..
 ## 👥 Tim Pengembang
 
 **Kelompok 5 - Program Studi Informatika**
