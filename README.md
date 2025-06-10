@@ -127,11 +127,6 @@ Output:
 - ✅ Tidak dapat dipecahkan secara kriptografis
 - ✅ Operasi XOR yang sederhana dan cepat
 
-### Keterbatasan:
-- ❌ Manajemen kunci yang kompleks
-- ❌ Distribusi kunci yang sulit
-- ❌ Tidak praktis untuk komunikasi skala besar
-
 ## 📊 Hasil Pengujian
 
 | No | Skenario | Status | Keterangan |
