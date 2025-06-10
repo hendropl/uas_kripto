@@ -27,7 +27,7 @@ Namun, implementasi OTP di dunia nyata jarang digunakan karena distribusi dan ma
 * Menyediakan fitur simulasi serangan dengan kunci palsu sebagai pembelajaran risiko keamanan.
 * Memberikan media pembelajaran interaktif untuk memahami konsep kriptografi dasar, khususnya OTP.
 
-## 🎯 Tujuan
+## 🎯 Gambaran Proyek
 
 1. **Implementasi OTP**: Membangun aplikasi GUI yang dapat melakukan enkripsi dan dekripsi menggunakan algoritma One-Time Pad
 2. **Validasi Kunci**: Mengimplementasikan sistem deteksi penggunaan ulang kunci untuk menjaga prinsip OTP
