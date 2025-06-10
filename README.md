@@ -88,37 +88,6 @@ Namun, implementasi OTP di dunia nyata jarang digunakan karena distribusi dan ma
 ### 4. **Reset**
 - Klik tombol **"Reset"** untuk membersihkan semua input
 
-## 🧪 Contoh Pengujian
-
-### Test Case 1: Enkripsi & Dekripsi Valid
-```
-Input:
-- Plaintext: "HELLO"
-- Key: "XMCKL"
-
-Output:
-- Ciphertext: "10080f0703" (contoh)
-- Decrypted: "HELLO" ✅
-```
-
-### Test Case 2: Deteksi Reuse Key
-```
-Input:
-- Key yang sudah pernah digunakan
-
-Output:
-- Error: "Kunci ini sudah pernah digunakan. OTP hanya boleh dipakai sekali." ⚠️
-```
-
-### Test Case 3: Simulasi Serangan
-```
-Input:
-- Ciphertext: "10080f0703"
-- Fake Key: "ABCDE"
-
-Output:
-- Hasil: "A_JUW" (karakter acak) ❌
-```
 
 ## 🔒 Prinsip Keamanan OTP
 
