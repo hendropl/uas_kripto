@@ -40,7 +40,7 @@ Namun, implementasi OTP di dunia nyata jarang digunakan karena distribusi dan ma
 - **GUI Framework**: Tkinter
 - **Kriptografi**: XOR Operation, SHA-256 Hashing
 - **Modul**: `binascii`, `hashlib`, `tkinter.messagebox`
-- **Platform**: Windows/Linux/MacOS
+- **Editor/IDE**: Vscode
 
 ## ⚡ Fitur Utama
 
