@@ -4,6 +4,28 @@
 ## 📋 Deskripsi Proyek
 
 Aplikasi GUI berbasis Python yang mengimplementasikan algoritma kriptografi **One-Time Pad (OTP)** untuk keperluan pembelajaran dan eksperimen keamanan informasi. Aplikasi ini mendemonstrasikan prinsip kerja OTP, validasi penggunaan kunci, dan simulasi serangan dengan kunci palsu.
+## 📖 Latar Belakang
+
+Di era digital yang penuh dengan ancaman keamanan informasi, kebutuhan akan algoritma enkripsi yang mampu memberikan *keamanan sempurna (perfect secrecy)* menjadi semakin penting. Salah satu algoritma yang memenuhi kriteria tersebut adalah *One-Time Pad (OTP), yang secara teori tidak dapat dipecahkan apabila syarat penggunaannya dipatuhi dengan ketat: kunci harus benar-benar acak, panjang kunci harus sama dengan panjang pesan, dan **kunci hanya boleh digunakan sekali*.
+
+Namun, implementasi OTP di dunia nyata jarang digunakan karena distribusi dan manajemen kunci yang rumit. Oleh karena itu, proyek ini hadir untuk mensimulasikan bagaimana OTP bekerja dalam sebuah *aplikasi GUI berbasis Python*, yang dilengkapi dengan sistem validasi penggunaan kunci, serta simulasi serangan dengan kunci palsu. Aplikasi ini bertujuan untuk menjadi media pembelajaran interaktif yang membantu mahasiswa dan praktisi memahami bagaimana algoritma OTP bekerja, serta risiko yang terjadi jika prinsip-prinsip dasarnya dilanggar.
+
+---
+
+## ❓ Rumusan Masalah
+
+1. Bagaimana prinsip kerja algoritma One-Time Pad (OTP) dapat diimplementasikan dalam sebuah aplikasi GUI berbasis Python?
+2. Bagaimana sistem aplikasi dapat mencegah penggunaan ulang kunci dan menunjukkan dampaknya jika dilanggar?
+3. Bagaimana simulasi serangan dengan kunci palsu dapat digunakan untuk mengilustrasikan kelemahan OTP jika prinsip dasar tidak diterapkan dengan benar?
+
+---
+
+## 🎯 Tujuan Proyek
+
+* Mengembangkan aplikasi GUI berbasis Python yang mampu melakukan enkripsi dan dekripsi menggunakan algoritma One-Time Pad.
+* Mengimplementasikan sistem deteksi penggunaan ulang kunci untuk menjaga prinsip perfect secrecy OTP.
+* Menyediakan fitur simulasi serangan dengan kunci palsu sebagai pembelajaran risiko keamanan.
+* Memberikan media pembelajaran interaktif untuk memahami konsep kriptografi dasar, khususnya OTP.
 
 ## 🎯 Tujuan
 
